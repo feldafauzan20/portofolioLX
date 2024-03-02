@@ -1,0 +1,43 @@
+
+
+#myprojects {
+  background-color: #e6ba00;
+  
+}
+
+#myprojects > h1 {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.projectcontoh {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.home {
+  background-image: url("assets/background music.jpg");
+  background-position: bottom;
+  background-size: cover;
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  
+}
+
+#about {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#contact > h2 {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
