@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style2.css')}}">
   </head>
   <body>
     <!-- NAVBAR START -->
@@ -75,12 +76,12 @@
     <!-- HOME END -->
 
     <!-- ABOUT START -->
-    <div id="about">
+    <section id="about">
       <div class="container text-center">
         <div class="row mt-5">
           <h1>-- ABOUT ME --</h1>
           <div class="col">
-            <img src="assets/foto ojan baru.png" />
+            <img src="{{ url_for('static', filename='image/foto ojan baru.png')}}" />
           </div>
           <div class="col d-flex align-items-center">
             <h5>
@@ -92,7 +93,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- ABOUT END -->
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -104,13 +105,13 @@
     </svg>
 
     <!-- PROJECT START -->
-    <div id="myprojects">
+    <section id="myprojects">
       <h1 class="text-center mb-5 text-light">-- MY PROJECTS --</h1>
       <div class="projectcontoh">
         <div class="row row-cols-1 row-cols-md-4 g-5">
           <div class="col">
             <div class="card h-100">
-              <img src="assets/project1.png" class="card-img-top" alt="..." />
+              <img src="{{ url_for('static', filename='image/project1.png')}}" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Blender Project</h5>
                 <p class="card-text">Membuat project sebuah ruangan menggunakan aplikasi blender</p>
@@ -119,7 +120,7 @@
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="assets/project2 (1).png" class="card-img-top" alt="..." />
+              <img src="{{ url_for('static', filename='image/project2 (1).png')}}" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">UI Travel Agent Website</h5>
                 <p class="card-text">Membuat tampilan website agent travel sederhana</p>
@@ -128,7 +129,7 @@
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="assets/project3.png" class="card-img-top" alt="..." />
+              <img src="{{ url_for('static', filename='image/project3.png')}}" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">E-apotek berbasis website</h5>
                 <p class="card-text">Membuat project e-apotek berbasis website</p>
@@ -137,7 +138,7 @@
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="assets/project4.png" class="card-img-top" alt="..." />
+              <img src="{{ url_for('static', filename='image/project4.png')}}" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">UI/UX WITH FIGMA</h5>
                 <p class="card-text">Membuat project UI/UX tentang Sistem Informasi Kesehatan dalam Masa Pandemi Covid-19 </p>
@@ -146,7 +147,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- PROJECT END -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
@@ -157,7 +158,7 @@
     </svg>
 
     <!-- CONTACT START -->
-    <section id="contact">
+    <div id="contact">
       <h2 class="text-center mb-5">-- CONTACT ME --</h2>
       <div class="container">
         <div class="row justify-content-center">
@@ -180,7 +181,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- CONTACT END -->
 
     <!-- FOOTER START -->

@@ -19,7 +19,7 @@
 }
 
 .home {
-  background-image: url("assets/background music.jpg");
+  background-image: url("/static/image/background music.jpg");
   background-position: bottom;
   background-size: cover;
   font-family: "Kanit", sans-serif;
@@ -40,4 +40,8 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+}
+
+section {
+  padding-top: 60px;
 }
